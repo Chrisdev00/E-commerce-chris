@@ -8,12 +8,12 @@ const CartItems = () => {
     return (
         <div className='cartitems'>
             <div className="cartitems-format-main">
-                <p>Products</p>
+                <p>Productos</p>
                 <p>Title</p>
-                <p>Price</p>
-                <p>Quantity</p>
+                <p>Precio</p>
+                <p>Cantidad</p>
                 <p>Total</p>
-                <p>Remove</p>
+                <p>Remover</p>
             </div>
             <hr />
             {all_product.map((e)=>{ 
@@ -35,7 +35,7 @@ const CartItems = () => {
             })}
             <div className="cartitems-down">
                 <div className="cartitems-total">
-                    <h1>cart Totals</h1>
+                    <h1>Totales del carrito</h1>
                     <div>
                         <div className="cartitems-total-item">
                             <p>Subtotal</p>
@@ -43,8 +43,8 @@ const CartItems = () => {
                         </div>
                         <hr />
                         <div className="cartitems-total-item">
-                            <p>Shiping Fee</p>
-                            <p>Free</p>
+                            <p>Gastos de envío</p>
+                            <p>Gratis</p>
                         </div>
                         <hr />
                         <div className="cartitems-total-item">
@@ -52,13 +52,13 @@ const CartItems = () => {
                             <h3>${getTotalCartAmount()}</h3>
                         </div>
                     </div>
-                    <button>PROCEED TO CHECKOUT</button>
+                    <button>PROCEDER A VERIFICAR</button>
                 </div>
                 <div className="cartitems-promocode">
-                    <p>If you have a promo code, Enter it here</p>
+                    <p>Si tienes un código promocional, ingrésalo aquí</p>
                     <div className="cartitems-promobox">
                         <input type="text" placeholder='promo code' />
-                        <button>Submit</button>
+                        <button>Enviar</button>
                     </div>
                 </div>
             </div>

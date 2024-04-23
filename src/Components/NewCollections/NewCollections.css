@@ -4,6 +4,7 @@
     align-items: center;
     gap: 20px;
     margin-bottom: 100px;
+    background: linear-gradient(180deg, #68a2a6 0%, #e1ffea22 60%);
 }
 .new-collections h1{
     color: #171717;

@@ -7,15 +7,15 @@ const LoginSignup = () => {
       <div className="loginsignup-container">
         <h1>Sign up</h1>
         <div className="loginsignup-fields">
-          <input type="text" placeholder='Your name' />
-          <input type="email" placeholder='Email Address' />
-          <input type="password" placeholder='Password' />
+          <input type="text" placeholder='Nombre Completo' />
+          <input type="email" placeholder='Direccion email' />
+          <input type="password" placeholder='Contraseña' />
         </div>
         <button>Continue</button>
-        <p className="loginsignup-login">Already have an account? <span>Login here</span> </p>
+        <p className="loginsignup-login">¿Ya tienes una cuenta? <span>Entre aquí</span> </p>
         <div className="loginsignup-agree">
           <input type="checkbox" name='' id='' />
-          <p>By continuing, I agree to the terms of use & privacy policy</p>
+          <p>Al continuar, acepto los términos de uso y la política de privacidad.</p>
         </div>
       </div>
     </div>
